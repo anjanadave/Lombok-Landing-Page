@@ -92,6 +92,23 @@ body{
   color: #ffffff;
   text-decoration: underline;
 }
+
+.sign-btn button{
+  background: var(--theme-color);
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  transition: color 0.5s ease-in-out;
+}
+
+.sign-btn button:hover{
+  background: #ffffff;
+  color: var(--theme-color);
+}
+
 /* navigation ends here */
 
 /* header starts here */
